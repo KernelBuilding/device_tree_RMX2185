@@ -103,10 +103,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX2185
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-RMX2185
-
 # Fingerprint
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/bin/android.hardware.biometrics.fingerprint@2.1-service.RMX2185:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.RMX2185 \
